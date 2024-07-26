@@ -5,3 +5,4 @@ RUN unzip terraform_0.11.15_linux_amd64.zip
 RUN mv terraform /bin
 test1
 test2
+test3
