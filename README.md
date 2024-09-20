@@ -5,7 +5,7 @@
     filename: "your_filename"
     file_date: "{{ lookup('pipe', 'date +%Y%m%d') }}"
     file_path: "/path/to/{{ filename }}{{ file_date }}.log"
-    max_size: 1073741824  # 1 GB in bytes
+    max_size: 1073741824  # 2 GB in bytes
 
   tasks:
     - name: Get file stats
